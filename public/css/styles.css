@@ -1,0 +1,187 @@
+body {
+  font-family: "Montserrat";
+  margin: 0;
+  text-align: center;
+
+
+}
+
+h1 {
+  font-family: 'Montserrat-BLACK', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+h3 {
+  font-family: 'Montserrat-BLACK', sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+img{
+  width: 100%;
+height: 300px;
+
+
+background-size: cover;
+
+}
+
+p{
+  line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+.search-navbar{
+  margin-left: 100px;
+}
+.under-navbar-text-styling{
+  text-align: center;
+}
+.padding-call-appt-buttons{
+  padding-top: 40px;
+}
+.navbar-padding{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.nav-item {
+  padding: 0 10px;
+}
+.under-navbar-styling{
+  padding-top: 70px;
+  text-align: center;
+}
+.search-button{
+  margin-left: 6px;
+}
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  border:10px solid;
+  padding: 0 10px 0 10px;
+}
+/*
+.book_appointment_btn {
+  margin-left: 600px;
+  width:50%;
+}*/
+.styling-first-container{
+  padding:20px;
+
+}
+
+.sec2and3-div-styling{
+  background-color: #d8d3cd;
+}
+
+.call-appointment-btn {
+  margin: 0 0 15px 0;
+}
+
+.img-glass-pix{
+  margin-top: 10px;
+
+}
+.effiel-tower-img{
+  padding-top: 10px;
+  height: 300px;
+  width: 100%
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+.carousel-control-prev,
+.carousel-control-next,
+.carousel-indicators{
+  filter: invert(1);
+}
+
+.testimonial-text{
+  font-family: "Montserrat-black";
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
+}
+#testimonials{
+  margin-top:  30px;
+}
+
+.press-logo{
+    width: 15%; /* basically used for re-sizing*/
+    height: 100px;
+    margin: 20px 20px 50px;
+}
+
+.card-body-content{
+  text-align: center;
+}
+.btn-content {
+border-radius:0;
+background: #243c4f;
+color: #fff;
+font-weight:600;
+margin: 20px 0 0 30px;
+}
+
+.subcribe-div{
+  background-color: #19beda
+}
+.map{
+  margin-top: 2%;
+}
+#press{
+  background-color: #7e7474;
+padding-top: 20px;
+
+text-align: center;
+}
+
+#testimonials{
+  text-align: center;
+}
+
+#footer{
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 100px;
+  background-color: #39311d;
+  color: #ffffff;
+  width: auto;
+
+}
+
+#policy{
+  border-left-style: groove;
+  border-right-style: groove;
+
+  margin-left: 40px;
+  color: #ffffff;
+}
+
+#about-jo{
+  padding: 50px;
+  padding-left: 20px;
+}
+.social-icons{
+margin-right: 20px;
+color: #ffffff;
+}
+.social-icons:hover{
+  color: #14274e;
+
+}
+
+.footer-icons{
+text-align: center;
+  padding-top: 100px;
+  background-color: #39311d;
+
+
+}
