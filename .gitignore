@@ -2,3 +2,4 @@ node_modules/
 codeswithexplanation
 mailchimp.api
 .env
+documentationOnconnectingToMongoDBWithMongoose

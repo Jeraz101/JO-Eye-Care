@@ -9,7 +9,9 @@ const ejs = require("ejs");
 const bcrypt = require("bcrypt"); //
 const saltRounds = 10;
 
+
 const app = express();
+
 
 app.use(express.static("public"));
 
@@ -18,11 +20,26 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
-
-mongoose.connect("mongodb+srv://admin-jeff:fougnersvei22@cluster0.lzeq8.mongodb.net/subscribersDB", {
+/*
+mongoose.connect("mongodb+srv://admin-jeff:sagene04@cluster0.lzeq8.mongodb.net/subscribersDB", {
   useUnifiedTopology: true,
   useNewUrlParser: true
+})*/
+const mongoString = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.lzeq8.mongodb.net/subscribersDB`
+
+
+mongoose.connect(mongoString, {useNewUrlParser: true, useUnifiedTopology: true })
+
+mongoose.connection.on("error", function(error) {
+  console.log(error)
 })
+
+mongoose.connection.on("open", function() {
+  console.log("Connected to MongoDB database.")
+})
+
+
+
 
 
 const subscribeSchema = new mongoose.Schema({
