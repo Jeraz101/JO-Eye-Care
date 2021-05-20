@@ -20,11 +20,7 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
-/*
-mongoose.connect("mongodb+srv://admin-jeff:sagene04@cluster0.lzeq8.mongodb.net/subscribersDB", {
-  useUnifiedTopology: true,
-  useNewUrlParser: true
-})*/
+
 const mongoString = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.lzeq8.mongodb.net/subscribersDB`
 
 
