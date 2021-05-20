@@ -1,0 +1,61 @@
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+}
+.btn-twitter {
+    background-color: #42AEEC;
+    color: #fff;
+}
+
+.footer-icons{
+text-align: center;
+  padding-top: 100px;
+  background-color: #39311d;
+
+
+}
+.social-icons{
+margin-right: 20px;
+color: #ffffff;
+}
+.social-icons:hover{
+  color: #14274e;
+
+}
+
+.card-margin{
+
+  margin-top: 100px;
+}
+
+#footer{
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 100px;
+  background-color: #39311d;
+  color: #ffffff;
+  width: auto;
+
+}
